@@ -13,6 +13,7 @@
 		1074EB121BEB61AB00DCED0F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1074EB101BEB61AB00DCED0F /* Main.storyboard */; };
 		1074EB141BEB61AB00DCED0F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1074EB131BEB61AB00DCED0F /* Assets.xcassets */; };
 		1074EB171BEB61AB00DCED0F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1074EB151BEB61AB00DCED0F /* LaunchScreen.storyboard */; };
+		1074EB201BEB61B800DCED0F /* Aspects.m in Sources */ = {isa = PBXBuildFile; fileRef = 1074EB1F1BEB61B800DCED0F /* Aspects.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		1074EB131BEB61AB00DCED0F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1074EB161BEB61AB00DCED0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1074EB181BEB61AB00DCED0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1074EB1E1BEB61B800DCED0F /* Aspects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Aspects.h; sourceTree = "<group>"; };
+		1074EB1F1BEB61B800DCED0F /* Aspects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Aspects.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 		1074EB061BEB61AB00DCED0F /* AspectsDemo */ = {
 			isa = PBXGroup;
 			children = (
+				1074EB1E1BEB61B800DCED0F /* Aspects.h */,
+				1074EB1F1BEB61B800DCED0F /* Aspects.m */,
 				1074EB0A1BEB61AB00DCED0F /* AppDelegate.h */,
 				1074EB0B1BEB61AB00DCED0F /* AppDelegate.m */,
 				1074EB0D1BEB61AB00DCED0F /* ViewController.h */,
@@ -152,6 +157,7 @@
 				1074EB0F1BEB61AB00DCED0F /* ViewController.m in Sources */,
 				1074EB0C1BEB61AB00DCED0F /* AppDelegate.m in Sources */,
 				1074EB091BEB61AB00DCED0F /* main.m in Sources */,
+				1074EB201BEB61B800DCED0F /* Aspects.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
